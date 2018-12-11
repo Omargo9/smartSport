@@ -1,0 +1,72 @@
+.grid{
+    width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size:12px;
+}
+.login-form{
+    width:60%;
+    height:70%;
+}
+.login-form input{
+    margin:10px 0;
+}
+.input{
+    height:30px;
+    width:100%;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding:5px;
+    border:1px solid rgb(204, 202, 202);}
+    .submit{
+
+        background: rgb(65, 64, 64);
+    width:100%;
+        height:30px;
+        border:none;
+        border-radius:5px;
+        color:white;
+        text-transform:uppercase;
+    
+    }
+    .line{
+        margin: 40px auto;}
+        .cercle{
+            border:1px solid rgb(179, 172, 172);
+            border-radius:50%;
+            display:flex;
+            width:40px;
+            height:40px;
+           align-items: center;
+           justify-content: center;
+           color:rgb(169, 162, 162);
+           margin: -30px auto auto auto;
+        background: white;
+        }
+        .btn-group{
+            text-align: center;
+        }
+        .title{
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .fb{
+            border:1px solid rgb(14, 70, 155);
+            color:rgb(14, 70, 155);
+            border-radius: 10px;
+            margin-right: 20px;
+        
+        }
+        .twit{
+            border: 1px solid rgb(31, 148, 211);
+            color:rgb(31, 148, 211);
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+     
+        }
